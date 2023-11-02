@@ -1,17 +1,17 @@
 {
-    "name": "queen_amdi-multi_device",
+    "name": "A-R-S-L-A-N_MD",
     "version": "4.0.8",
-    "description": "Queen Amdi [WA Multi-device] - A WhatsApp based third party application that provide many services with a real-time automated conversational experience.",
+    "description": "A-R-S-L-A-N_MD [WA Multi-device] - A WhatsApp based third party application that provide many services with a real-time automated conversational experience.",
     "main": "./assets/amdiModule.js",
     "scripts": {
         "package": "yarn install --network-concurrency 1",
         "start": "node ./assets/amdiModule.js",
         "pm-run": "sudo yarn global add pm2 && pm2 start ./assets/amdiModule.js --name QueenAmdiMD && pm2 log QueenAmdiMD",
-        "pm-restart": "pm2 restart QueenAmdiMD"
+        "pm-restart": "pm2 restart A-R-S-L-A-N_MD"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BlackAmda/QueenAmdi.git"
+        "url": "git+https://github.com/Arslanmugha11/A-R-S-L-A-N_MD.git"
     },
     "engines": {
         "node": "18.x"
@@ -23,9 +23,9 @@
     "developer": "AN Tech",
     "license": "GPL-3.0-or-later",
     "bugs": {
-        "url": "https://github.com/BlackAmda/QueenAmdi/issues"
+        "url": "https://github.com/Arslanmugha11/A-R-S-L-A-N_MD/issues"
     },
-    "homepage": "https://github.com/BlackAmda/QueenAmdi#readme",
+    "homepage": "https://github.com/Arslanmugha11/A-R-S-L-A-N_MD#readme",
     "dependencies": {
         "@adiwajshing/baileys": "git+https://github.com/AN-Tech-Crew/BaileysForQueenAmdi.git#3e8a609ad9779ee2ac1726bd63c9736f69231c48",
         "@adiwajshing/keyed-db": "^0.2.4",
